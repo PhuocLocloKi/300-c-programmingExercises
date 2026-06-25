@@ -6,8 +6,8 @@ int main() {
 	printf("");
 	scanf("%lf",&number1);
 	
-	double squareRoot = sqrt(number1); // Compute the square root with sqrt()
-	printf("%.2lf",squareRoot);
+	double decimal = 1 / number1;
+	printf("%.5lf",decimal);
 	return 0;
 	
 }
